@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    height: 100px; 
+    margin: 0;
+    padding: 0 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#bar1{
+    align-items: center;
+}
+
+#bar1 h1 {
+    font-size: 24px;
+    color: black;
+    margin: 0px;
+}
+
+#bar1 a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 70px; 
+}
+
+#bar1 a:hover {
+    text-decoration: underline;
+    color: darkblue; 
+}
+article a{    
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: darkblue; 
+}
+#imagedefond {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#imagedeFond {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+#panier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+#panier img{
+    height: 80px;
+    width: 80px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+    bottom: 0;
+}
+footer a{
+    text-decoration: none;
+    margin: 0 5px;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+    padding-left: 5rem;
+}
+
+
