@@ -1,0 +1,271 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; 
+    background-color: black; 
+    padding: 0 20px;
+    box-shadow: 0px 4px 8px white;
+}
+#header-content h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+#header-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+#panier-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.product-item {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.product-details h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+
+
+.empty-cart-message {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    width: 100%;
+}
+
+
+.panier-summary {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.panier-summary h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.panier-summary p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.checkout-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkout-btn:hover {
+    background-color: #27ae60;
+}
+
+#bar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+
+#bar1 h1 {
+    font-size: 24px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+#bar1 nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-grow: 1; 
+}
+
+
+#bar1 nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px;
+    padding: 10px 20px; 
+    transition: all 0.3s ease; 
+}
+
+#bar1 nav a:hover {
+    background-color: #444; 
+    border-radius: 5px; 
+}
+#connexion a {
+    display: flex;
+    align-items: center;
+
+}
+
+#connexion img {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+#bar1 nav a img {
+    height: 30px; 
+    width: 30px; 
+    margin-left: 10px;
+}
+article {
+    background-color: #f9f9f9; 
+    color: black; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+article a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article a:hover {
+    color: #0056b3;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+
+article img {
+    width: 80%; 
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+/* Image de fond */
+#imagedefond {
+    position: relative;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 90%; 
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#imagedeFond {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+#slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+}
+
+#panier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+#panier img{
+    height: 80px;
+    width: 80px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
